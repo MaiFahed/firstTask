@@ -1,3 +1,8 @@
+:root {
+    --deepBlue:  #15273F;
+}
+
+
 .outer {
     display: flex;
     justify-content: center;
@@ -12,7 +17,7 @@
 
 .inner {
     border-radius: 25px;
-    background-color: #15273F;
+    background-color: var(deepBlue);
     width: 270px;
     margin: 10px;
 
